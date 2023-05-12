@@ -26,7 +26,7 @@ nav{
     /*background: gray;*/
     box-sizing: border-box;
     padding: 30px 20px;
-    border: 2px solid #0000;
+    border: 2px solid black;
 }
 .produtos{
     width: 940px;
