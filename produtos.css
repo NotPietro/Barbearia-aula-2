@@ -1,6 +1,5 @@
 header{
     background: #a0a0a0
-    
 }
 nav li{
     display: inline;
@@ -15,7 +14,8 @@ nav a{
 
 }
 nav a:hover{
-    color: greenyellow;
+    color: rgb(127, 47, 255);
+    text-decoration: underline;
 }
 nav{
     position: absolute;
@@ -28,8 +28,9 @@ nav{
     width: 30%;
     vertical-align: top;
     /*background: gray;*/
+    margin: 0 5px;
+    padding: 50px 20px;
     box-sizing: border-box;
-    padding: 30px 20px;
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -44,15 +45,33 @@ nav{
     margin: 0 auto; 
 }
 .produtos h2{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 .produto-preco{
     font-size: 22px;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 10px 0 0;
 }
 .produto-descricao{
     font-size: 18px;
-
+}
+.produtos li:hover{
+    border-color: rgb(132, 0, 255);
+    background-color: rgb(221, 221, 221);
+}
+.produtos li:active{
+    border-color: rgb(214, 11, 11)blue green rgb(255, 174, 0); 
+}
+.produtos li:hover h2{
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    background: url("logo-branco.png");
+    padding: 40px 0;
+}
+.copyright {
+    color: blueviolet;
+    font-size: 13px;
 }
