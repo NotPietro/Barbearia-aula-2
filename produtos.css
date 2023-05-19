@@ -61,17 +61,17 @@ nav{
     background-color: rgb(221, 221, 221);
 }
 .produtos li:active{
-    border-color: rgb(214, 11, 11)blue green rgb(255, 174, 0); 
+    border-color: rgb(214, 11, 11); 
 }
 .produtos li:hover h2{
     font-size: 30px;
 }
 footer{
     text-align: center;
-    background: url("logo-branco.png");
+    background: url("bg.jpg");
     padding: 40px 0;
 }
 .copyright {
-    color: blueviolet;
+    color: rgb(255, 255, 255);
     font-size: 13px;
 }
