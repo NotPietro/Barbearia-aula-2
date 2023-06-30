@@ -143,3 +143,10 @@ td{
     border: 1px solid black;
     padding: 5px 10px;
 }
+.banner{
+    width: 100%;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+}
